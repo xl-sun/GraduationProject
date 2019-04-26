@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>LogisticsSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/WEB-INF/ERROR-PAGE/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/404.jsp</location>
+  </error-page>
+  <servlet>
+    <servlet-name>sxl</servlet-name>
+    <servlet-class>ServletTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sxl</servlet-name>
+    <url-pattern>/servletSXL</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>management</servlet-name>
+    <servlet-class>qztc.sxl.test.TerifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>management</servlet-name>
+    <url-pattern>/T2</url-pattern>
+  </servlet-mapping>
+</web-app>

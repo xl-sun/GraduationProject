@@ -1,0 +1,74 @@
+body>div{
+	width:800px;
+	margin: 0 auto;
+}
+
+
+input{
+	border: 0px;
+    border-bottom: 1px solid #CCCCCC;
+    outline: none;
+    resize: none;
+    width:200px;
+    height:30px;
+}
+
+lable:before{
+    content: "* ";
+    color: #eb1d21;
+}
+
+select{
+	width:80px;
+	text-align:center;
+	text-align-last:center;
+}
+
+.main_div{
+	height:575px;
+}
+
+.form_div{
+	
+	width:395px;
+	height:95%;
+	float:left;
+}
+
+.notes_div{
+	
+	width:345px;
+	height:95%;
+	float:right;
+	overflow-y: scroll;
+}
+
+.form_div,.notes_div{
+	background: #fff;
+	border-radius: 10px;
+	margin:5px;
+	padding:10px;
+}
+
+form>div{
+
+	/*width:95%;*/
+	padding:10px;
+	margin:5px;
+	border-radius: 5px;
+
+	border:1px dashed #666;
+}
+
+.notes_div span{
+	margin:5px;
+	font-size: 20px;
+	color:#f00;
+}
+
+.querycode{
+	height:30px;
+	width:100px;
+}
+
+    

@@ -1,0 +1,11 @@
+192.168.1.9 - - [09/Apr/2019:00:01:53 +0800] "GET /LogisticsSystem/Order HTTP/1.1" 200 14030
+192.168.1.9 - - [09/Apr/2019:00:01:53 +0800] "GET /LogisticsSystem/css/order.css HTTP/1.1" 304 -
+192.168.1.9 - - [09/Apr/2019:00:01:53 +0800] "GET /LogisticsSystem/js/order.js HTTP/1.1" 200 1327
+192.168.1.9 - - [09/Apr/2019:00:06:51 +0800] "GET /LogisticsSystem/management/login.html HTTP/1.1" 304 -
+192.168.1.9 - - [09/Apr/2019:00:06:51 +0800] "GET /LogisticsSystem/management/css/login.css HTTP/1.1" 304 -
+192.168.1.9 - - [09/Apr/2019:00:06:51 +0800] "GET /LogisticsSystem/management/js/login.js HTTP/1.1" 200 1437
+192.168.1.9 - - [09/Apr/2019:00:07:43 +0800] "POST /LogisticsSystem/management/AdminLogin HTTP/1.1" 200 16
+192.168.1.9 - - [09/Apr/2019:00:07:47 +0800] "POST /LogisticsSystem/management/AdminLogin HTTP/1.1" 200 16
+192.168.1.9 - - [09/Apr/2019:00:08:05 +0800] "POST /LogisticsSystem/management/AdminLogin HTTP/1.1" 200 16
+192.168.1.9 - - [09/Apr/2019:00:09:59 +0800] "POST /LogisticsSystem/management/AdminLogin HTTP/1.1" 200 16
+192.168.1.9 - - [09/Apr/2019:00:11:22 +0800] "POST /LogisticsSystem/management/AdminLogin HTTP/1.1" 200 16

@@ -1,0 +1,55 @@
+a{
+	text-decoration:none;
+}
+
+body {
+    background: #efefef;
+}
+
+.header,.footer{
+	font-family:"Microsoft YaHei";
+	color: #666;
+	text-align: center;
+}
+
+.header{
+    height: 60px;
+    background: #fefefe;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 4px 6px #77666666;
+    z-index: 200;
+}
+
+.header .logo{
+	float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.header ul{
+	/* width: 430px; */
+    height: 38px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 14px;
+    
+    list-style: none;
+}
+
+.header ul li{
+	float: left;
+    position: relative;
+    margin-top: 5px;
+}
+
+.header ul li a{
+	font-size: 16px;
+    color: black;
+    padding: 16px 14px;
+}
+
+.header ul li a:hover {
+    background: #5966d9;
+    color: white;
+}
